@@ -1,0 +1,21 @@
+
+
+
+
+
+
+CHECKOUT : (while the file is not ADDED) when a file was modifyed and we dont want those changes, use this comman, and it will undo those changes
+
+* git checkout file2.txt -- 
+ 
+GIT LOG
+
+* git log: it to see all the history if the COMMITs that we've made.
+* git log --graph: make the history prettier
+* git log -- graph --pretty=oneline: resume every commit details in one line
+* got log --graph --decorate --all --oneline : the commit's hash is shorter and every one line 
+ 
+  
+ALIAS: is a name that we put to a certain command or group of commands (ATAJO is the name of the alias)
+
+*git config --global alias.atajo "log --graph -- decorate --all --oneline"
