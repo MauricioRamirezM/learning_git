@@ -19,3 +19,13 @@ GIT LOG
 ALIAS: is a name that we put to a certain command or group of commands (ATAJO is the name of the alias)
 
 *git config --global alias.atajo "log --graph -- decorate --all --oneline"
+
+GIT IGNORE: is a file where we can write the name of those files or directories that we dont want ot save in the commits we make. 
+-first we have to make a file ".gitignore"
+-then writte all those files we dont wanna
+- and continue with the work, the "gitignore" file has to be commited normally.
+ * touch .gitignore
+
+ GIT DIFF: thi command let us see what were the last changes we made in the file. what we wrote or delete.
+ * git diff 
+
