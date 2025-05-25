@@ -4,10 +4,18 @@
 
 
 
-CHECKOUT : (while the file is not ADDED) when a file was modifyed and we dont want those changes, use this comman, and it will undo those changes
+CHECKOUT :  is used to change between branches, or even to go back to old file versions or to an specific commit.
 
-* git checkout file2.txt -- 
- 
+CHANGING OF BRANCH
+*git checkout <branch name>  
+UNDOING THE CHANGES
+* git checkout <file name>
+CREATING AND CHANGING TO A NEW BRANCH 
+* git checkout -b <new_branch_name>
+GO BACK TO A SPECIFIC COMMIT
+* git checkout <commit's HASH>
+
+
 GIT LOG
 
 * git log: it to see all the history if the COMMITs that we've made.
@@ -28,4 +36,6 @@ GIT IGNORE: is a file where we can write the name of those files or directories 
 
  GIT DIFF: thi command let us see what were the last changes we made in the file. what we wrote or delete.
  * git diff 
+
+ GIT CHE
 
